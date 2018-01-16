@@ -1,3 +1,4 @@
 {
+    "csharp.suppressDotnetInstallWarning": true,
     "workbench.colorTheme": "Visual Studio Dark"
 }
