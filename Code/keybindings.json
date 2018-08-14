@@ -1,7 +1,24 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    {
-        "key": "ctrl+shift+w",
-        "command": "editor.emmet.action.wrapWithAbbreviation"
-    }
+  {
+    "key": "ctrl+shift+w",
+    "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.focus",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "cmd+k cmd+k",
+    "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "cmd+e cmd+e",
+    "command": "workbench.action.focusActiveEditorGroup"
+  }
 ]
