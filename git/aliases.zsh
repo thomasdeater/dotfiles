@@ -24,4 +24,5 @@ alias gac='git add -A && git commit -m'
 alias ge='git-edit-new'
 
 alias gfop='git fetch origin --prune'
+alias gfup='git fetch upstream --prune'
 alias gmff='git merge --ff-only'

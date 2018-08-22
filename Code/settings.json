@@ -2,7 +2,7 @@
   "csharp.suppressDotnetInstallWarning": true,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.visible": true,
   "workbench.sideBar.location": "right",
   "workbench.fontAliasing": "antialiased",
   "editor.renderWhitespace": "all",
