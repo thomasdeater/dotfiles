@@ -26,3 +26,10 @@ alias ge='git-edit-new'
 alias gfop='git fetch origin --prune'
 alias gfup='git fetch upstream --prune'
 alias gmff='git merge --ff-only'
+alias gdr='git merge --no-commit --no-ff'
+alias gma='git merge --abort'
+
+# gdiff()
+# {
+#     git diff --color "$1" | sed "s/^\([^-+ ]*\)[-+ ]/\\1/" | less -r
+# }
