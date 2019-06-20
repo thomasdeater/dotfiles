@@ -1,5 +1,4 @@
 {
-  "csharp.suppressDotnetInstallWarning": true,
   "workbench.colorTheme": "Visual Studio Dark",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.activityBar.visible": true,
@@ -14,9 +13,10 @@
   "editor.wordWrap": "on",
   "editor.codeLens": false,
   "editor.emptySelectionClipboard": false,
-  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.wordSeparators": "`~!@#%^&*()-_=+[{]}\\|;:'\",.<>/?",
   "editor.quickSuggestionsDelay": 0,
   "editor.formatOnPaste": true,
+  "editor.autoIndent": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "javascript.format.enable": true,
   "intelephense.completionProvider.backslashPrefix": false,
@@ -37,16 +37,28 @@
   "terminal.integrated.cursorBlinking": false,
   "terminal.integrated.cursorStyle": "line",
   "php-cs-fixer.executablePath": "php-cs-fixer",
-  "php-cs-fixer.onsave": true,
   "php-cs-fixer.rules": "@PSR2",
   "php-cs-fixer.config": ".php_cs;.php_cs.dist",
   "php-cs-fixer.allowRisky": false,
   "php-cs-fixer.pathMode": "override",
-  "php-cs-fixer.exclude": [],
+  "php-cs-fixer.exclude": ["*.blade.php"],
   "php-cs-fixer.autoFixByBracket": true,
   "php-cs-fixer.autoFixBySemicolon": false,
   "php-cs-fixer.formatHtml": false,
   "php-cs-fixer.documentFormattingProvider": true,
   "emmet.triggerExpansionOnTab": true,
-  "blade.format.enable": true
+  "explorer.confirmDelete": false,
+  "php-cs-fixer.onsave": true,
+  "intelephense.formatProvider.enable": false,
+  "window.zoomLevel": 0,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "highlight-bad-chars.additionalUnicodeChars": [
+    "\u200E",
+    "\u200F",
+    "\u00A0"
+  ],
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  }
 }
